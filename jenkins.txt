@@ -28,13 +28,13 @@
 # 0:1.3
 
 # 1:GAMEDIR, VERSIONFILE [, GITHUBREPO ]
-1:HangerGrid, HangerGrid.version
+1:HangarGrid, HangarGrid.version
 
 # 2:PROJNAME, PROJFILE, VERSIONFILE, PLUGINSFOLDER
-2:HangerGrid,HangerGrid/HangerGrid.csproj,HangerGrid.version,GameData/HangerGrid/Plugins
+2:HangarGrid,HangarGrid/HangarGrid.csproj,HangarGrid.version,GameData/HangarGrid/Plugins
 
 # 3:SOURCEFILE, DESTDIR
-3:HangerGrid.version,GameData/HangerGrid
+3:HangarGrid.version,GameData/HangarGrid
 
 # 4:SOURCDIR, DESTDIR
 #4:Textures,GameData/ManeuverQueue/Textures
