@@ -1,0 +1,9 @@
+Changelog
+
+0.4.1.0
+	Adoption by Linuxgurugamer
+	Added support for ToolbarController
+	Added Settings window, with the ability to change the control keys
+	Added ability to change the step of the lines
+	Fixed problem that autoalignment of a part desynchronized it's rotation and position to the current rotation gizmo
+	Fixed symmetry mode being hard-coded to letter K

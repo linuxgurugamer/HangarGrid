@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangarGrid", "HangarGrid\HangarGrid.csproj", "{5CA9A030-E18A-46E5-8149-0B4F74318BC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6DF17B7-2E78-443B-9BCE-517C6DFCF49A}"
+	ProjectSection(SolutionItems) = preProject
+		buildRelease.bat = buildRelease.bat
+		Changelog.txt = Changelog.txt
+		deploy.bat = deploy.bat
+		GPLv3_LICENSE.txt = GPLv3_LICENSE.txt
+		HangarGrid.version = HangarGrid.version
+		README.md = README.md
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CA9A030-E18A-46E5-8149-0B4F74318BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA9A030-E18A-46E5-8149-0B4F74318BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA9A030-E18A-46E5-8149-0B4F74318BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA9A030-E18A-46E5-8149-0B4F74318BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {824D0E88-04B8-4404-8AD8-2A0916E9197D}
+	EndGlobalSection
+EndGlobal

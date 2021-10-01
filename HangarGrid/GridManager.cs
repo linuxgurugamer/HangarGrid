@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using static HangarGrid.RegisterToolbar;
 
 namespace HangarGrid
 {
@@ -10,7 +11,7 @@ namespace HangarGrid
 	public class GridManager
 	{
 		
-		private bool gridEnabled = false;
+		internal static bool gridEnabled = false;
 		
 		int numberOfLines;
 		float step = 1f;
@@ -24,11 +25,19 @@ namespace HangarGrid
 		GameObject[] longitudalXOZLines;
 		GameObject[] axisLines;
 		
-		public void showGrid(Bounds bounds) {
-			if (gridEnabled) {
+		public void showGrid(Bounds bounds, bool force=false, float tmpStep = 10f) {
+			if (gridEnabled && !force) {
 				return;
 			}
 			gridEnabled = true;
+			if (force)
+			{
+				clearGrid();
+				step = tmpStep / 10;
+			}
+			else
+				step = Configuration.Instance.data.step / 10f;
+
 			this.bounds = bounds;
 			float distance = Mathf.Max(new float[] {bounds.size.x, bounds.size.y, bounds.size.z});
 			numberOfLines = 2 * (Mathf.RoundToInt(Math.Abs(distance) / step) + 1);
