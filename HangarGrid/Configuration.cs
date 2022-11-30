@@ -93,7 +93,7 @@ namespace HangarGrid
             LoadConfiguration("HangarGrid");
         }
 
-        public const string DATADIR = "GameData/HangarGrid/PluginData/";
+        public string DATADIR { get { return KSPUtil.ApplicationRootPath + "GameData/HangarGrid/PluginData/"; } }
         public const string SETTINGS_FILE = "HangarGrid.cfg";
         public const string NODE = "HangarGrid";
         public const string HOTKEY_NODE = "HotKeys";

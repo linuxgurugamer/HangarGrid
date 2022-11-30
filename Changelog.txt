@@ -1,5 +1,8 @@
 Changelog
 
+0.4.1.1
+	Fixed loading config when used with new launcher
+
 0.4.1.0
 	Adoption by Linuxgurugamer
 	Added support for ToolbarController
