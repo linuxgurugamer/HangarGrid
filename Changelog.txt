@@ -1,5 +1,8 @@
 Changelog
 
+0.4.1.2
+	Updated version file to use github for new version info
+
 0.4.1.1
 	Fixed loading config when used with new launcher
 

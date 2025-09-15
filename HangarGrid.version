@@ -1,6 +1,6 @@
 {
   "NAME": "HangarGrid",
-  "URL": "http://ksp.spacetux.net/avc/HangarGrid",
+  "URL": "hhttps://raw.githubusercontent.com/linuxgurugamer/HangarGrid/refs/heads/master/HangarGrid.version",
   "DOWNLOAD": "https://github.com/linuxgurugamer/HangarGrid/releases",
   "CHANGE_LOG": "https://raw.githubusercontent.com/linuxgurugamer/HangarGrid/master/CHANGE_LOG.md",
   "CHANGE_LOG_URL": "https://raw.githubusercontent.com/linuxgurugamer/HangarGrid/master/CHANGES.md",
@@ -8,16 +8,21 @@
     "MAJOR": 0,
     "MINOR": 4,
     "PATCH": 1,
-    "BUILD": 1
+    "BUILD": 2
   },
   "KSP_VERSION": {
     "MAJOR": 1,
     "MINOR": 12,
-    "PATCH": 2
+    "PATCH": 5
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,
     "MINOR": 12,
     "PATCH": 0
+  },
+  "KSP_VERSION_MAX": {
+    "MAJOR": 1,
+    "MINOR": 12,
+    "PATCH": 99
   }
 }
