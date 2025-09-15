@@ -18,7 +18,7 @@ namespace HangarGrid
         bool helpMode = false;
         internal bool isVisible = false;
         int winId;
-        ModuleDeployableAntenna
+
         Configuration.Data localData;
         void Start()
         {
